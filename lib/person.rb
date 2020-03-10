@@ -1,6 +1,7 @@
 class Person
-  def initialization(name="Beyonce")
+  def initialization(name="Beyonce", job = "Singer")
     @name=name 
+    @job=job
   end  
   
   def name=(name) 
